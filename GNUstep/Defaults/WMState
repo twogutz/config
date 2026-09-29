@@ -1,0 +1,212 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = default.default;
+        DropCommand = "steam %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-10";
+        Lock = No;
+        PasteCommand = "steam %s";
+        Command = steam;
+      },
+      {
+        Forced = No;
+        Name = firefox.Firefox;
+        DropCommand = "firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-11";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
+      },
+      {
+        Forced = No;
+        Name = "xfce4-terminal.Xfce4-terminal";
+        DropCommand = "xfce4-terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-8";
+        Lock = No;
+        PasteCommand = "xfce4-terminal %s";
+        Command = "xfce4-terminal";
+      },
+      {
+        Forced = No;
+        Name = groupLeader.WPrefs;
+        DropCommand = "WPrefs %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-9";
+        Lock = No;
+        PasteCommand = "WPrefs %s";
+        Command = WPrefs;
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = default.default;
+        DropCommand = "steam %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-10";
+        Lock = No;
+        PasteCommand = "steam %s";
+        Command = steam;
+      },
+      {
+        Forced = No;
+        Name = firefox.Firefox;
+        DropCommand = "firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-11";
+        Lock = No;
+        PasteCommand = "firefox %s";
+        Command = firefox;
+      },
+      {
+        Forced = No;
+        Name = "xfce4-terminal.Xfce4-terminal";
+        DropCommand = "xfce4-terminal %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-8";
+        Lock = No;
+        PasteCommand = "xfce4-terminal %s";
+        Command = "xfce4-terminal";
+      },
+      {
+        Forced = No;
+        Name = groupLeader.WPrefs;
+        DropCommand = "WPrefs %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,-9";
+        Lock = No;
+        PasteCommand = "WPrefs %s";
+        Command = WPrefs;
+      }
+    );
+    Lowered = Yes;
+    Position = "1302,704";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,704";
+    Lock = No;
+    Command = "-";
+  };
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = (
+          {
+            Forced = No;
+            Name = wmclock.WMClock;
+            DropCommand = "wmclock -12 %d";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,-1";
+            Lock = No;
+            PasteCommand = "wmclock -12 %s";
+            Command = "wmclock -12";
+            Omnipresent = No;
+          },
+          {
+            Forced = No;
+            Name = wmcpuload.DockApp;
+            DropCommand = "wmcpuload %d";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "1,0";
+            Lock = No;
+            PasteCommand = "wmcpuload %s";
+            Command = wmcpuload;
+            Omnipresent = No;
+          },
+          {
+            Forced = No;
+            Name = asmon.asmon;
+            DropCommand = "asmon %d";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "1,-1";
+            Lock = No;
+            PasteCommand = "asmon %s";
+            Command = asmon;
+            Omnipresent = No;
+          },
+          {
+            Forced = No;
+            Name = wmwifi.DockApp;
+            DropCommand = "wmwifi %d";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "0,-2";
+            Lock = No;
+            PasteCommand = "wmwifi %s";
+            Command = wmwifi;
+            Omnipresent = No;
+          },
+          {
+            Forced = No;
+            Name = wmusic.DockApp;
+            DropCommand = "wmusic %d";
+            BuggyApplication = No;
+            AutoLaunch = Yes;
+            Position = "1,-2";
+            Lock = No;
+            PasteCommand = "wmusic %s";
+            Command = wmusic;
+            Omnipresent = No;
+          }
+        );
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
+    }
+  );
+}

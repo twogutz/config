@@ -1,0 +1,17 @@
+{
+  default.default = {
+    Icon = default.default.xpm;
+  };
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  org.gnome.Terminal.Org.gnome.Terminal = {
+    Icon = org.gnome.Terminal.Org.gnome.Terminal.xpm;
+  };
+  "xfce4-terminal.Xfce4-terminal" = {
+    Icon = Shell.png;
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+}

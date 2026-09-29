@@ -1,0 +1,76 @@
+{
+  FTitleColor = white;
+  FrameBorderColor = "#b6b6b3";
+  MenuDisabledColor = "rgb:61/61/61";
+  IconTitleBack = "#0c1c2c";
+  HotCornerEdge = 2;
+  PixmapPath = (
+    "/home/swf/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/swf/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/swf/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/pixmaps"
+  );
+  FTitleBack = (hgradient, "rgb:18/38/59", black);
+  ToggleKbdModeKey = None;
+  WindowMenuKey = None;
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  MaximusKey = "Mod4+T";
+  IconTitleFont = "Arial,sans serif:pixelsize=9";
+  MenuTextBack = (hgradient, "rgb:18/38/59", "rgb:00/14/28");
+  LargeDisplayFont = "Trebuchet MS,sans serif:pixelsize=24";
+  WindowPlacement = center;
+  PartialCaptureKey = "Shift+Print";
+  HotCornerDelay = 250;
+  IconificationStyle = flip;
+  CenterKey = None;
+  TitleJustify = center;
+  IconTitleColor = white;
+  MenuTextColor = white;
+  IconBack = (mdgradient, "rgb:61/51/59", "rgb:38/58/79", black, "rgb:18/38/59");
+  MenuTitleColor = white;
+  MenuTitleFont = "Trebuchet MS,sans serif:bold:pixelsize=12";
+  HotCorners = YES;
+  MoveTo6to12Head = None;
+  SmoothWorkspaceBack = YES;
+  WorkspaceNameDisplayPosition = topleft;
+  WindowListKey = None;
+  IconPosition = trh;
+  MenuTextFont = "Trebuchet MS,sans serif:pixelsize=12";
+  WorkspaceBack = (mdgradient, black, black, black, "#111133");
+  HighlightTextColor = black;
+  MenuTitleBack = (hgradient, "rgb:08/24/38", black);
+  EnforceIconMargin = NO;
+  MoveResizeKey = "Mod1+J";
+  AutoArrangeIcons = YES;
+  ClipTitleColor = white;
+  MoveTo12to6Head = None;
+  HotCornerActions = ("xfce4-terminal", None, None, None);
+  CloseKey = "Mod1+F4";
+  HighlightColor = white;
+  FrameFocusedBorderColor = "#b6b6b3";
+  WindowTitleFont = "Trebuchet MS,sans serif:bold:pixelsize=12";
+  RunKey = "Mod4+D";
+  WindowPlaceOrigin = (0, 0);
+  CClipTitleColor = gray40;
+  RootMenuKey = None;
+  ResizebarBack = (hgradient, "rgb:38/58/79", "rgb:26/36/46");
+  MenuStyle = normal;
+  IconPath = (
+    "/home/swf/GNUstep/Library/Icons",
+    "/home/swf/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/swf/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps"
+  );
+  PTitleBack = (hgradient, "rgb:18/38/59", black);
+  UTitleColor = gray60;
+  UTitleBack = (hgradient, "rgb:38/58/79", "rgb:26/36/46");
+  PTitleColor = gray60;
+  StickyIcons = YES;
+  FrameSelectedBorderColor = "#ffffff";
+}
